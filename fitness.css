@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-shadow: 1px 1px 10px rgb(251, 148, 31);
+    border-radius: 0 0 20px 20px;
+ 
+}
+header ul{
+    display: flex;
+    padding-left: 30%;
+    height: 50px;
+    padding-top: 10px;
+}
+header ul li{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.3s;
+   
+}
+header ul li:hover{
+    color: #d95e06;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.rotate{
+    margin: 90px 10px 50px 70px;
+    background-color: bisque;
+    width: 400px;
+    height: 550px;
+    padding-left: 50px;
+    overflow: visible;
+    transform: rotate(28deg);
+}
+.rotate img{
+    transform: rotate(-28deg);
+    overflow: visible;
+    -webkit-filter: drop-shadow(5px 5px 10px #865111);
+    filter: drop-shadow(5px 5px 10px #804f0e);
+}
+.submain{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-right: 30px;
+
+}
+.submain h2{
+    color: #d95e06;
+}
+.submain p{
+    color: #5e5e5e;
+}
+
+.head{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #ffffff;
+}
+.head ul{
+    display: flex;
+    padding-left: 10%;
+}
+.head ul li{
+    list-style: none;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+h1{
+    border-bottom: solid 1px #9b9b9b;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.menu1{
+    display: flex;
+    padding: 10px;
+}
+.menu1 div h2:hover{
+    color: #d95e06;
+}
+.submenu1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.submenu1 div h2:hover{
+    color: #d95e06;
+}
+.menu1 div{
+    padding: 10px;
+}
+.menu2{
+    display: grid;
+    grid-template-columns:15% 35% 15% 35% ;
+    padding: 20px;
+}
+.menu2 div h2:hover{
+    color: #d95e06;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #d95e06;
+}
